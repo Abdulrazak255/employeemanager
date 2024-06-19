@@ -11,14 +11,21 @@ public class Employee implements Serializable {
     @Column(nullable = false , updatable = false)
     private Long id ;
     private String name;
+<<<<<<< HEAD
 
     //@Email(message = "Email should be valid") dit annotation for valid email
     @Column(unique = true)
+=======
+>>>>>>> origin/main
     private String email;
     private String jobTitle;
     private String phone;
     private String imageUrl; //I can do it with File
+<<<<<<< HEAD
     @Column(nullable = false , updatable = false)
+=======
+
+>>>>>>> origin/main
     private String employeeCode;
 
     public Employee() {
